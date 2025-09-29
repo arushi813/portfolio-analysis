@@ -1,6 +1,6 @@
 # Investment Portfolio Analysis - Data Analyst Project
 
-## 📊 Project Overview
+## Project Overview
 
 This project demonstrates key data analyst skills through investment portfolio analysis:
 
@@ -10,7 +10,7 @@ This project demonstrates key data analyst skills through investment portfolio a
 - **Data Visualization**: Professional charts and insights
 - **Python Programming**: Clean, documented, production-ready code
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Database**: MySQL with normalized schema
 - **API**: Yahoo Finance (yfinance library)
@@ -18,7 +18,7 @@ This project demonstrates key data analyst skills through investment portfolio a
 - **Visualization**: matplotlib, seaborn for charts
 - **Language**: Python 3.8+
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── database_schema.sql       # MySQL database setup
@@ -28,7 +28,7 @@ This project demonstrates key data analyst skills through investment portfolio a
 └── README_analyst.md        # This documentation
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Database Setup
 ```bash
@@ -51,7 +51,7 @@ python data_fetcher.py
 python portfolio_analyzer.py
 ```
 
-## 📊 Key Features
+## Key Features
 
 ### Data Pipeline
 - **ETL Process**: Extract data from Yahoo Finance API, Transform for analysis, Load into MySQL
@@ -70,7 +70,7 @@ python portfolio_analyzer.py
 3. **Stock Price Trends**: 6-month price movements for major stocks
 4. **Sector Allocation**: Pie chart showing portfolio diversification
 
-## 🎯 Business Value
+## Business Value
 
 ### Investment Insights
 - **Performance Tracking**: Monitor portfolio returns and individual stock performance
@@ -83,7 +83,7 @@ python portfolio_analyzer.py
 - **Comparative Analysis**: Portfolio performance benchmarking
 - **Sector Exposure**: Risk management through diversification analysis
 
-## 📈 Sample Outputs
+## Sample Outputs
 
 The analysis generates:
 - **Performance Report**: Comprehensive text summary with key metrics
@@ -91,7 +91,7 @@ The analysis generates:
 - **Data Tables**: Structured results for further analysis
 - **Alert Notifications**: Real-time price change alerts
 
-## 🔧 Configuration
+## Configuration
 
 ### Database Connection (data_fetcher.py, portfolio_analyzer.py)
 ```python
@@ -109,7 +109,7 @@ db_config = {
 - **Alert Thresholds**: Modify price change alert percentages
 - **Visualization Styles**: Customize chart colors and layouts
 
-## 📊 Data Schema
+## Data Schema
 
 ### Core Tables
 - **stocks**: Master list of tracked securities
@@ -123,7 +123,7 @@ db_config = {
 - Optimized indexes for fast time-series queries
 - Normalized design prevents data redundancy
 
-## 🎓 Skills Demonstrated
+## Skills Demonstrated
 
 ### Technical Skills
 - **SQL**: Complex queries, joins, indexing, database design
@@ -138,7 +138,7 @@ db_config = {
 - **Automation**: Repeatable processes and error handling
 - **Documentation**: Clear code comments and user guides
 
-## 📝 Future Enhancements
+## Future Enhancements
 
 - **BI Dashboard**: Interactive PowerBI dashboard
 - **Advanced Metrics**: Sharpe ratio, beta, correlation analysis
