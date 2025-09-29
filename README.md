@@ -9,6 +9,7 @@ This project demonstrates key data analyst skills through investment portfolio a
 - **Data Analysis**: Portfolio performance and risk calculations
 - **Data Visualization**: Professional charts and insights
 - **Python Programming**: Clean, documented, production-ready code
+- **Environment**: Jupyter Notebook for interactive analysis
 
 ## Technical Stack
 
@@ -36,19 +37,24 @@ This project demonstrates key data analyst skills through investment portfolio a
 mysql -u root -p < database_schema.sql
 ```
 
-### 2. Install Dependencies
+### 2. Launch Jupyter
 ```bash
-pip install -r requirements_analyst.txt
+jupyter notebook
 ```
 
-### 3. Fetch Stock Data
+### 3. Install Dependencies
 ```bash
-python data_fetcher.py
+!pip install -r requirements_analyst.txt
+```
+
+### 4. Fetch Stock Data
+```bash
+python data_fetcher.ipynb
 ```
 
 ### 4. Run Analysis
 ```bash
-python portfolio_analyzer.py
+python portfolio_analyzer.ipynb
 ```
 
 ## Key Features
