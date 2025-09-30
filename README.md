@@ -44,7 +44,7 @@ jupyter notebook
 
 ### 3. Install Dependencies
 ```bash
-!pip install -r requirements_analyst.txt
+!pip install -r requirements_analyst.txt []
 ```
 
 ### 4. Fetch Stock Data
@@ -54,7 +54,7 @@ python data_fetcher.ipynb
 
 ### 4. Run Analysis
 ```bash
-python portfolio_analyzer.ipynb
+[python portfolio_analyzer.ipynb]
 ```
 
 ## Key Features
@@ -151,6 +151,17 @@ db_config = {
 - **Backtesting**: Historical strategy performance simulation
 - **Real-time Streaming**: Live price feeds and automatic updates
 - **Machine Learning**: Price prediction and portfolio optimization
+
+## Sample Outputs
+
+### Portfolio Performance
+![Portfolio Performance](portfolio_performance.png)
+
+### Risk-Return Scatter Plot
+![Risk Return Analysis](risk_return_analysis.png)
+
+### Stock Price Trends
+![Stock Trends](stock_trends.png)
 
 ---
 
