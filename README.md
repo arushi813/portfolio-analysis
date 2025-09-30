@@ -54,7 +54,7 @@ python data_fetcher.ipynb
 
 ### 4. Run Analysis
 ```bash
-[python portfolio_analyzer.ipynb]
+[python portfolio_analyzer.ipynb](data_fetcher.ipynb)
 ```
 
 ## Key Features
