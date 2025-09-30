@@ -23,7 +23,7 @@ This project demonstrates key data analyst skills through investment portfolio a
 
 ```
 ├── database_schema.sql       # MySQL database setup
-├── data_fetcher.py          # API data fetching script
+├── [data_fetcher.py](https://github.com/arushi813/portfolio-analysis/blob/main/data_fetcher.ipynb)          # API data fetching script
 ├── portfolio_analyzer.py    # Analysis and visualization
 ├── requirements_analyst.txt # Python dependencies
 └── README_analyst.md        # This documentation
@@ -44,7 +44,7 @@ jupyter notebook
 
 ### 3. Install Dependencies
 ```bash
-!pip install -r requirements_analyst.txt []
+pip install -r requirements_analyst.txt 
 ```
 
 ### 4. Fetch Stock Data
@@ -54,7 +54,7 @@ python data_fetcher.ipynb
 
 ### 4. Run Analysis
 ```bash
-[python portfolio_analyzer.ipynb](data_fetcher.ipynb)
+python portfolio_analyzer.ipynb
 ```
 
 ## Key Features
